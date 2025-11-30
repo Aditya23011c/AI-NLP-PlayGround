@@ -40,27 +40,29 @@ Feature	Description
 💬 Chatbot	Predefined conversational assistant
 🌍 English ↔ Hindi Translation	Accurate translation using deep-translator
 📄 PDF Summarizer	Upload PDF → extract text → get summary
+
+
 🏗 Project Architecture
+
 AI NLP Playground/
+
+
 │── app.py
+
+
 │── requirements.txt
+
+
 │── README.md
+
+
 │── assets/
 │     └── logo.png
 │     └── screenshots/
-│── sample_pdfs/
-│── .gitignore
-└── …
-
-⭐ Demo Preview (Optional GIF)
-
-You can add a demo GIF here:
-
-![Demo](assets/demo.gif)
 
 🔧 Installation Guide
 1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/AI-NLP-PlayGround.git
+git clone https://github.com/Aditya23011c/AI-NLP-PlayGround.git
 cd AI-NLP-PlayGround
 
 2️⃣ Install dependencies
@@ -105,7 +107,9 @@ deep-translator
 
 📸 Screenshots (Add Later)
 ![Home UI](assets/screenshots/home.png)
+
 ![Summarizer](assets/screenshots/summary.png)
+
 ![Translation](assets/screenshots/translation.png)
 
 📅 Future Enhancements
@@ -122,11 +126,21 @@ Add dataset-based fake news ML model
 
 Add export results as PDF
 
+
 👨‍💻 Contributors
-Name	Role
-Aditya Prakash Gupta	Developer
-Lakshya Gupta	Developer
+
+Name	                          Role 
+
+
+
+Aditya Prakash Gupta         	Developer
+
+
+
+
+
 ❓ FAQ
+
 
 Q: Does the app require GPU?
 No, it runs on CPU.
