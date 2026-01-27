@@ -1,14 +1,19 @@
 import streamlit as st
 from textblob import TextBlob
 from rake_nltk import Rake
-import nltk
+
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 import PyPDF2
 from deep_translator import GoogleTranslator       # FIXED TRANSLATOR
+import nltk
+try:
+    nltk.data.find("corpora/stopwords")
+except LookupError:
+    nltk.download("stopwords")
 
-nltk.download("stopwords")
+
 
 # =====================================================
 #   CSS STYLES (your original code)
