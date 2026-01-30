@@ -2,7 +2,7 @@
 
 🧠 AI NLP Playground
 A Modern Multi-Tool Natural Language Processing Web App Built with Streamlit
-<div align="center"> <img src="assets/logo.png" width="160">
+<div align="center"> <img src="Home.jpg" width="160">
 
 
 
@@ -106,11 +106,10 @@ PyPDF2
 deep-translator
 
 📸 Screenshots (Add Later)
-![Home UI](assets/screenshots/home.png)
+![Home UI](Home.jpg)
 
-![Summarizer](assets/screenshots/summary.png)
 
-![Translation](assets/screenshots/translation.png)
+![Translation](Translation.jpg)
 
 📅 Future Enhancements
 
